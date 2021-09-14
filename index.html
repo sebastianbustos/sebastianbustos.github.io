@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end developer test</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            margin: 0 0 4rem 0;
+            padding: 0 2rem;
+            font-size: 1.125rem;
+        }
+
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+        }
+
+        .story__list li:first-child~li {
+            margin-top: .313rem;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Acme AB</h1>
+        <p class="bold">
+            Acme AB är ett företag inom byggbranschen som skall bygga om sin webbplats. De har totalt 10 anställda i
+            företaget med en begränsad budget för marknadsföring.
+            Jan-Olof som jobbar på ekonomiavdelningen har fått i uppgift att anlita en IT-firma för att bygga deras
+            nya
+            webbplats.
+            Han har begränsad kunskap kring web och internet men är en fena på Excel. Du får ett mail från kunden
+            som
+            lyder enligt följande:
+        </p>
+        <hr />
+        <p class="italic">Hej!</p>
+        <p class="italic">Nu är det dags att bygga om vår hemsida. Här kommer kravspecifikationen:</p>
+        <ul class="story__list italic">
+            <li>Sidan ska vara responsiv</li>
+            <li>Sidan ska ha tre sektioner (utöver sidhuvud och sidfot): “Om oss”, “Referenser” och “Kontakta oss”.
+            </li>
+            <li>Den ska fungera i alla webbläsare</li>
+            <li>Vi vill ha all information på en enda sida</li>
+            <li>Den ska ladda snabbt och vara snygg</li>
+            <li>Vi vill ha vårt kontor utplacerat på en karta som presenteras på sidan. Gärna i fullbredd.</li>
+            <li>Vi vill att besökarens namn ska visas på sidan som en hälsning varje gång de surfar in på vår
+                sida.
+                Exempelvis "Hej Johan!"</li>
+            <li>Besökaren skall ha möjlighet att byta bakgrundsfärg på sidan och det vi vill att dessa val sparas
+                till
+                nästa gång den besöker sidan</li>
+            <li>Vi vill ha en lista med kontakter under sektionen “Kontakta oss” som listar namn och titel i två
+                kolumner.
+                Denna lista ska kunna minimeras och expanderas vid tryck på en knapp. Om det är möjligt skulle vi
+                vilja
+                ha möjlighet att sortera denna listan efter bokstavsordning på kolumnen namn eller titel.</li>
+        </ul>
+        <p class="italic">Vi har en budget på 8000SEK, fixar du det?</p>
+        <hr />
+        <p>Givetvis svarar du ja! Utöver kundens vaga krav tillkommer följande krav:</p>
+        <ul class="story__list">
+            <li>Du ska använda dig av någon form av “preprocessor” för dina stilmallar.</li>
+            <li>Du ska prestanda i åtanke och konfigurera din applikation enligt “best practices”.</li>
+            <li>Siten skall passera “Riktlinjer för tillgängligt webbinnehåll (WCAG) 2.0”.</li>
+            <li>Siten skall laddas upp i <a href="https://www.github.com">Github</a>.</li>
+        </ul>
+        <p class="bold">
+            Bonuspoäng
+        </p>
+        <ul class="story__list">
+            <li>Automatisera utvecklingsprocessen, använd valfri teknik.</li>
+            <li>Använd Google Maps API för att rendera kartan istället för en inbäddad iframe-karta.</li>
+            <li>Skriv din Javascript i vanilla JS.</li>
+            <li>Använd något modern ramverk efter eget tycke.</li>
+        </ul>
+        <p class="bold">Lycka till!</p>
+    </main>
+</body>
+
+</html>
